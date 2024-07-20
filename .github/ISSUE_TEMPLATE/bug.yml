@@ -1,0 +1,20 @@
+name: Баг
+description: Была найдена ошибка / что-то работает как не ожидалось / т.д.
+labels:
+  - bug
+body:
+  - type: textarea
+    id: console
+    attributes:
+      label: Лог консоли
+      description: Прикрепите лог консоли (ctrl + shift + i -> "Консоль" для Chrome)
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Описание
+      description: Опишите вашу проблему.
+    validations:
+      required: true
