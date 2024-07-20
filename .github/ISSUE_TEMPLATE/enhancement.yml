@@ -1,0 +1,12 @@
+name: 🤝Улучшение
+description: Хочу предложить улучшение
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Описание
+      description: Опишите вашу идею.
+    validations:
+      required: true
