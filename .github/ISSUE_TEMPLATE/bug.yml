@@ -7,7 +7,7 @@ body:
     id: console
     attributes:
       label: Лог консоли
-      description: Прикрепите лог консоли (`ctrl + shift + i` -> `Консоль` для Chrome)
+      description: Прикрепите лог консоли. (`ctrl + shift + i` -> `Консоль` для Chrome)
     validations:
       required: true
 
