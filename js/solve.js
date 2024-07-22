@@ -34,9 +34,8 @@ $(document).ready(function()
         r.blob().then(
             (blob) => blob.arrayBuffer()).then(
                 (ab) => {
-            data = Array.from(new Uint32Array(ab));
-            data.unshift(0);
-
+            data = new Uint32Array(ab);
+            assert(data.length === 512);
             reply('Решение будет выведено здесь.');
         });
     });
