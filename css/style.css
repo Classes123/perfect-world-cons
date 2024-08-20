@@ -42,16 +42,21 @@
     aspect-ratio: 1;
     border-radius: 50%;
     cursor: pointer;
+    user-select: none;
+
+    /* make the same text v-spacing */
+    border: #fff solid 2px;
 
     &.cons-star--white
     {
+        color: #000;
         background: #fff;
     }
 
     &.cons-star--black
     {
+        color: #fff;
         background: #000;
-        border: #fff solid 2px;
     }
 }
 
